@@ -33,9 +33,7 @@ void merge(int arr[], int low, int mid, int high)
     for (int i = low; i <= high; i++)
     {
         arr[i] = temp[i - low];
-        // low - low = 0
-        // lown+1 -low =1
-        // low+2 ~low = 2
+        
     }
 }
 void mergesort(int arr[], int low, int high)
